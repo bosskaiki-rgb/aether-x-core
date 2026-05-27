@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aether X Core is a gaming hardware and technology website featuring PC parts, consoles, and prebuilt systems.">
+  <meta name="keywords" content="gaming, PC parts, consoles, controllers, prebuilt PCs, technology">
+  <meta name="author" content="Malachi Gray">
+<title>Product Page</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+
+<nav>
+  <div class="brand">
+    <img src="images/logo.png" alt="Aether X Core Logo">
+    <h1>Aether X Core</h1>
+  </div>
+
+  <div>
+    <a href="index.html">Home</a>
+    <a href="PCPARTS.html">PC Parts</a>
+    <a href="consoles.html">Consoles</a>
+    <a href="PreBuild.html">PreBuilds</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<div class="section">
+
+<div class="product-layout">
+
+  <!-- LEFT: IMAGE -->
+  <div class="product-left" id="product-image"></div>
+
+  <!-- RIGHT: INFO -->
+  <div class="product-right" id="product-info"></div>
+
+</div>
+
+<!-- FEATURES -->
+<div class="section">
+  <h2>Key Features</h2>
+  <div id="feature-grid" class="features"></div>
+</div>
+
+<!-- SPECS + PERFORMANCE WRAP -->
+<div class="section">
+  <div class="spec-performance-grid">
+
+<!-- SPECS -->
+    <div class="specs">
+      <h2>Technical Specifications</h2>
+      <table id="spec-table"></table>
+    </div>
+
+<!-- PERFORMANCE -->
+    <div class="performance">
+      <h2>Performance</h2>
+      <div class="performance-section">
+
+  <!-- RESOLUTION TOGGLE (NOW ABOVE CHART) -->
+  <div class="resolution-toggle">
+    <button class="res-btn active" data-res="1080p">1080p</button>
+    <button class="res-btn" data-res="1440p">1440p</button>
+    <button class="res-btn" data-res="4k">4K</button>
+    <button class="res-btn" data-res="8k">8K</button>
+  </div>
+
+  <!-- PERFORMANCE CHART -->
+  <canvas id="performanceChart"></canvas>
+
+</div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/products100.js"></script>
+<script src="js/product-page.js"></script>
+</div>
+</div>
+<footer>
+  © 2026 Aether X Core
+</footer>
+
+</body>
+</html>
